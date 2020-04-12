@@ -1,0 +1,52 @@
+<section class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-5 col-md-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Income and Expenses</h3>
+            </div>
+            <div class="card-body table-responsive pad">
+              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn bg-olive active">
+                  <input type="radio" name="options" id="annual" autocomplete="off" checked> Annual
+                </label>
+                <label class="btn bg-olive">
+                  <input type="radio" name="options" id="monthly" autocomplete="off"> Monthly
+                </label>
+              </div>
+  
+              <p></p>
+              <div class="input-group mb-3">
+                  <input id="incomeamt" name="incomeamt" type="text" class="form-control" placeholder="Annual Income">
+                  <div class="input-group-prepend">
+                    <button id="incomebtn" type="submit" class="btn btn-info btn-flat bg-olive">Enter</button>
+                  </div>
+              </div>
+              <p id="message">{{ message }}</p>
+            </div>
+  
+            <div class="card-body col-md-12">
+              <div id="ieplot">
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="col-lg-7 col-md-12">
+        <div class="card">
+          <div class="card-header">
+              <h3 id="#subcat_title" class="card-title">Top 10 Subcategories</h3>
+          </div>
+          <div class="card-body">
+            <div id="subcategories">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

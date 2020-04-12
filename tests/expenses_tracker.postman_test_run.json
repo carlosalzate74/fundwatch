@@ -1,0 +1,266 @@
+{
+	"id": "1a542b91-384e-459a-937a-1afc053a1bce",
+	"name": "expenses_tracker",
+	"timestamp": "2020-04-08T17:20:01.303Z",
+	"collection_id": "4e40409e-ea16-444b-9944-01ed6d311ad1",
+	"folder_id": "4b377dd8-4e5e-4238-943a-188506241c3c",
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5bc5611f-4c53-4bc3-b41c-09f0cec0c44c",
+			"name": "Home",
+			"url": "https://fundwatch.herokuapp.com",
+			"time": 277,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "96457d23-bf3a-4539-ad2b-f8fc2135f4d0",
+			"name": "dashboard",
+			"url": "https://fundwatch.herokuapp.com/dashboard",
+			"time": 2917,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2917
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "67c04190-b261-4e39-b7ea-cfc1fab6ffe5",
+			"name": "transactions",
+			"url": "https://fundwatch.herokuapp.com/transactions",
+			"time": 85,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				85
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "82aaf666-8b07-4a81-b818-f771bc71a260",
+			"name": "toptensubcat",
+			"url": "https://fundwatch.herokuapp.com/toptensubcat",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "685307b9-80ab-4473-9310-3fb4f15c1361",
+			"name": "mainplot",
+			"url": "https://fundwatch.herokuapp.com/mainplot",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "823dc595-e99d-4567-a6ea-49ccea0614a2",
+			"name": "uploadcsv",
+			"url": "https://fundwatch.herokuapp.com/uploadcsv",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a1eedb16-8ff2-4d86-b393-2248a59efcbc",
+			"name": "filters",
+			"url": "https://fundwatch.herokuapp.com/filters",
+			"time": 1525,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1525
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0fb2e8ce-b1a3-4043-bc23-8aaf42717172",
+			"name": "ieplot",
+			"url": "https://fundwatch.herokuapp.com/ieplot/annual?period=annual",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				83
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5097,
+	"collection": {
+		"requests": [
+			{
+				"id": "5bc5611f-4c53-4bc3-b41c-09f0cec0c44c",
+				"method": "GET"
+			},
+			{
+				"id": "96457d23-bf3a-4539-ad2b-f8fc2135f4d0",
+				"method": "GET"
+			},
+			{
+				"id": "67c04190-b261-4e39-b7ea-cfc1fab6ffe5",
+				"method": "GET"
+			},
+			{
+				"id": "82aaf666-8b07-4a81-b818-f771bc71a260",
+				"method": "GET"
+			},
+			{
+				"id": "685307b9-80ab-4473-9310-3fb4f15c1361",
+				"method": "GET"
+			},
+			{
+				"id": "823dc595-e99d-4567-a6ea-49ccea0614a2",
+				"method": "GET"
+			},
+			{
+				"id": "a1eedb16-8ff2-4d86-b393-2248a59efcbc",
+				"method": "POST"
+			},
+			{
+				"id": "0fb2e8ce-b1a3-4043-bc23-8aaf42717172",
+				"method": "POST"
+			}
+		]
+	}
+}
